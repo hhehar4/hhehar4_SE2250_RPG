@@ -1,0 +1,21 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Enemy2 : Enemy
+{
+    public override void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Player")
+        {
+            Debug.Log(Player.instance.health);
+            Player.instance.health = Player.instance.health - 20;
+            Debug.Log(Player.instance.health);
+            if (Player.instance.health <= 0)
+            {
+                Destroy(collision.gameObject);
+                target = null;
+            }
+        }
+    }
+}

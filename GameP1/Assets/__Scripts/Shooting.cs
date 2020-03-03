@@ -7,14 +7,14 @@ public class Shooting : MonoBehaviour
     public GameObject[] projectilePrefabs;
     public GameObject spawnPoint;
     public float projectileForce = 20f;
-    private int[] projectileSpeeds = {350, 450, 500};
+    private int[] projectileSpeeds = {350, 150, 500};
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot(0);
+            Shoot(Player.instance.level);
         }
     }
 
@@ -29,6 +29,6 @@ public class Shooting : MonoBehaviour
         clickPosition.x = clickPosition.x - spawnPoint.transform.position.x;
         clickPosition.y = clickPosition.y - spawnPoint.transform.position.y;
 
-        rb.AddForce(clickPosition.normalized * projectileSpeeds[tracker]); 
+        rb.AddForce(clickPosition.normalized * projectileSpeeds[tracker]);
     }
 }
