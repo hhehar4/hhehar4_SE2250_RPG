@@ -33,7 +33,6 @@ public class Enemy : MonoBehaviour
         if(collision.collider.tag == "Player")
         {
             Player.instance.health = Player.instance.health - 5;
-            //Debug.Log(Player.instance.health);
             if(Player.instance.health <= 0)
             {
                 Destroy(collision.gameObject);
