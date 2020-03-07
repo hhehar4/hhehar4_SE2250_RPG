@@ -8,7 +8,6 @@ public class Enemy2 : Enemy
     {
         if (collision.collider.tag == "Player")
         {
-            Debug.Log(Player.instance.health);
             Player.instance.health = Player.instance.health - 20;
             Debug.Log(Player.instance.health);
             if (Player.instance.health <= 0)

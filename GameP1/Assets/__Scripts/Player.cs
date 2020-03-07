@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public int health = 100;
     public int level = 0;
     public int activeWeapon = 0;
+    public bool[] currentWeapons = { true, false, false, false};
     void Awake()
     {
         if (instance == null)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    private int[] damage = { 5, 15, 10, 15 };
+    private int[] damage = { 5, 20, 10, 15 };
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Enemy")

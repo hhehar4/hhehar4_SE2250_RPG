@@ -7,6 +7,10 @@ TagManager:
   - Projectile
   - Enemy
   - Wall
+  - Dagger
+  - Sword
+  - Staff
+  - Spear
   layers:
   - Default
   - TransparentFX

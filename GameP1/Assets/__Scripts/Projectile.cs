@@ -18,7 +18,10 @@ public class Projectile : MonoBehaviour
             if (enemy.health <= 0)
             {
                 Destroy(other.gameObject);
-                Player.instance.level++;
+                if(Player.instance.level < 2)
+                {
+                    Player.instance.level++;
+                }
             }
             Destroy(this.gameObject);
         }
