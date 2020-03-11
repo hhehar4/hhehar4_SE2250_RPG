@@ -6,6 +6,7 @@ public class HealthOrb : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //On collision with the player, heals the player for 20 health
         if (collision.tag == "Player")
         {
             Player.instance.health += 20;

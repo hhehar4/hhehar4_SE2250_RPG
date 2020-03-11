@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    //Singleton class to keep track of player stats
     public static Player instance = null;
     public GameObject player = null;
     public int health = 100;

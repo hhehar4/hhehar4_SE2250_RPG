@@ -10,9 +10,9 @@ public class Attacking : MonoBehaviour
     private float[] coolDownTimes = { 0.4f, 1.25f, 0.75f, 1f };
     private float nextFireTime = 0;
 
-    // Update is called once per frame
     void Update()
     {
+        //Checks if mouse is clicked and if the cooldown is over
         if (Input.GetButtonDown("Fire1"))
         {
             if(Time.time > nextFireTime)
@@ -25,6 +25,7 @@ public class Attacking : MonoBehaviour
 
     void Attack(int tracker)
     {
+        //Gets the mouse position on click
         Vector3 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, -0.2f));
         clickPosition.z = -0.2f;
 
@@ -35,6 +36,7 @@ public class Attacking : MonoBehaviour
 
         float angle = Vector3.Angle(transform.up, clickPosition);
 
+        //Creates a instance of the weapon depending on where the mouse was clicked relative to the player
         if (positionCheck)
         {
             attack = Instantiate(weapons[tracker]);
@@ -49,7 +51,7 @@ public class Attacking : MonoBehaviour
             attack.transform.localPosition = clickPosition.normalized * 0.7f;
             attack.transform.localRotation = Quaternion.Euler(0, 180, (angle - 90f));
         }
-
+        //Destroys the instance
         Invoke("DestroyWeapon", 0.05f);
     }
 

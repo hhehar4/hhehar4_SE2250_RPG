@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
     private int[] damage = { 5, 20, 10, 15 };
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //If the weapon collides with an enemy, the enemy takes damage or dies
         if (other.tag == "Enemy")
         {
             Enemy enemy = other.gameObject.GetComponent<Enemy>();

@@ -12,11 +12,13 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        //Gets the player's position
         target = Player.instance.player.transform;
     }
     
     void Update()
     {
+        //If the player exists and is within the view range, the enemy will move towards the player
         if ((target != null) && (Vector3.Distance(target.position, transform.position) <= maxRange) && (Vector3.Distance(target.position, transform.position) >= minRange))
         {
             FollowPlayer();
@@ -25,11 +27,13 @@ public class Enemy : MonoBehaviour
 
     void FollowPlayer()
     {
+        //Takes the player and enemy position and makes the enemy take a straight path towards the player
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
     }
 
     public virtual void OnCollisionEnter2D(Collision2D collision)
     {
+        //On collision with the player, the player takes damage or dies
         if(collision.collider.tag == "Player")
         {
             Player.instance.health = Player.instance.health - 5;
