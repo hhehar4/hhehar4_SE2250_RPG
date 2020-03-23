@@ -11,6 +11,9 @@ TagManager:
   - Sword
   - Staff
   - Spear
+  - Enemy2
+  - EnemyProjectile
+  - Boss
   layers:
   - Default
   - TransparentFX

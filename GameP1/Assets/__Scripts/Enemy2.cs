@@ -10,11 +10,10 @@ public class Enemy2 : Enemy
         if (collision.collider.tag == "Player")
         {
             Player.instance.health = Player.instance.health - 20;
-            Debug.Log(Player.instance.health);
             if (Player.instance.health <= 0)
             {
-                Destroy(collision.gameObject);
-                target = null;
+                Player.instance.Respawn();
+
             }
         }
     }

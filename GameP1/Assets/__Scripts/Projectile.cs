@@ -27,6 +27,20 @@ public class Projectile : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
+        if (other.tag == "Boss")
+        {
+            Boss boss = other.gameObject.GetComponent<Boss>();
+            boss.health = boss.health - damage[Player.instance.level];
+            if (boss.health <= 0)
+            {
+                Destroy(other.gameObject);
+                if (Player.instance.level < 2)
+                {
+                    Player.instance.level++;
+                }
+            }
+            Destroy(this.gameObject);
+        }
     }
 }
     

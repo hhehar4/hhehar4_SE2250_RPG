@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
         target = Player.instance.player.transform;
     }
     
-    void Update()
+    public virtual void Update()
     {
         //If the player exists and is within the view range, the enemy will move towards the player
         if ((target != null) && (Vector3.Distance(target.position, transform.position) <= maxRange) && (Vector3.Distance(target.position, transform.position) >= minRange))
@@ -39,8 +39,7 @@ public class Enemy : MonoBehaviour
             Player.instance.health = Player.instance.health - 5;
             if(Player.instance.health <= 0)
             {
-                Destroy(collision.gameObject);
-                target = null;
+                Player.instance.Respawn();
             }
         }
     }

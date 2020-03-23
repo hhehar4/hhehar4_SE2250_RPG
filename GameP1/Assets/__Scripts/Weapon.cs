@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    private int[] damage = { 5, 20, 10, 15 };
+    private int[] damage = { 5, 15, 20, 10 };
     private void OnTriggerEnter2D(Collider2D other)
     {
         //If the weapon collides with an enemy, the enemy takes damage or dies
-        if (other.tag == "Enemy")
+        if (other.tag == "Enemy" || other.tag == "Enemy2")
         {
             Enemy enemy = other.gameObject.GetComponent<Enemy>();
             enemy.health = enemy.health - damage[Player.instance.activeWeapon];
