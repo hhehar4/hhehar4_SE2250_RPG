@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 0
-  maxRange: 8
+  maxRange: 7
   minRange: 0.5
   health: 50
   projSprite: {fileID: 3928605868246417316, guid: 33aa2739a5014a24db25287ad262eb6b,

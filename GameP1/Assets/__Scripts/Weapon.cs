@@ -11,6 +11,8 @@ public class Weapon : MonoBehaviour
         if (other.tag == "Enemy" || other.tag == "Enemy2")
         {
             Enemy enemy = other.gameObject.GetComponent<Enemy>();
+            SpriteRenderer renderer = other.gameObject.GetComponent<SpriteRenderer>();
+
             enemy.health = enemy.health - damage[Player.instance.activeWeapon];
             if (enemy.health <= 0)
             {

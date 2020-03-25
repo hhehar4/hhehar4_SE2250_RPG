@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: 9e6ef3bd8f08b0d41838e6315bc99418
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: modern_cyberpunk_cyanide_0
+    21300002: modern_cyberpunk_cyanide_1
+    21300004: modern_cyberpunk_cyanide_2
+    21300006: modern_cyberpunk_cyanide_3
+    21300008: modern_cyberpunk_cyanide_4
+    21300010: modern_cyberpunk_cyanide_5
+    21300012: modern_cyberpunk_cyanide_6
+    21300014: modern_cyberpunk_cyanide_7
+    21300016: modern_cyberpunk_cyanide_8
+    21300018: modern_cyberpunk_cyanide_9
+    21300020: modern_cyberpunk_cyanide_10
+    21300022: modern_cyberpunk_cyanide_11
+    21300024: modern_cyberpunk_cyanide_12
+    21300026: modern_cyberpunk_cyanide_13
+    21300028: modern_cyberpunk_cyanide_14
+    21300030: modern_cyberpunk_cyanide_15
+    21300032: modern_cyberpunk_cyanide_16
+    21300034: modern_cyberpunk_cyanide_17
+    21300036: modern_cyberpunk_cyanide_18
+    21300038: modern_cyberpunk_cyanide_19
+    21300040: modern_cyberpunk_cyanide_20
+    21300042: modern_cyberpunk_cyanide_21
+    21300044: modern_cyberpunk_cyanide_22
+    21300046: modern_cyberpunk_cyanide_23
+    21300048: modern_cyberpunk_cyanide_24
+    21300050: modern_cyberpunk_cyanide_25
+    21300052: modern_cyberpunk_cyanide_26
+    21300054: modern_cyberpunk_cyanide_27
+    21300056: modern_cyberpunk_cyanide_28
+    21300058: modern_cyberpunk_cyanide_29
+    21300060: modern_cyberpunk_cyanide_30
+    21300062: modern_cyberpunk_cyanide_31
+    21300064: modern_cyberpunk_cyanide_32
+    21300066: modern_cyberpunk_cyanide_33
+    21300068: modern_cyberpunk_cyanide_34
+    21300070: modern_cyberpunk_cyanide_35
+    21300072: modern_cyberpunk_cyanide_36
+    21300074: modern_cyberpunk_cyanide_37
+    21300076: modern_cyberpunk_cyanide_38
+    21300078: modern_cyberpunk_cyanide_39
+    21300080: modern_cyberpunk_cyanide_40
+    21300082: modern_cyberpunk_cyanide_41
+    21300084: modern_cyberpunk_cyanide_42
+    21300086: modern_cyberpunk_cyanide_43
+    21300088: modern_cyberpunk_cyanide_44
+    21300090: modern_cyberpunk_cyanide_45
+    21300092: modern_cyberpunk_cyanide_46
+    21300094: modern_cyberpunk_cyanide_47
+    21300096: modern_cyberpunk_cyanide_48
+    21300098: modern_cyberpunk_cyanide_49
+    21300100: modern_cyberpunk_cyanide_50
+    21300102: modern_cyberpunk_cyanide_51
+    21300104: modern_cyberpunk_cyanide_52
+    21300106: modern_cyberpunk_cyanide_53
+    21300108: modern_cyberpunk_cyanide_54
+    21300110: modern_cyberpunk_cyanide_55
+    21300112: modern_cyberpunk_cyanide_56
+    21300114: modern_cyberpunk_cyanide_57
+    21300116: modern_cyberpunk_cyanide_58
+    21300118: modern_cyberpunk_cyanide_59
+    21300120: modern_cyberpunk_cyanide_60
+    21300122: modern_cyberpunk_cyanide_61
+    21300124: modern_cyberpunk_cyanide_62
+    21300126: modern_cyberpunk_cyanide_63
+    21300128: modern_cyberpunk_cyanide_64
+    21300130: modern_cyberpunk_cyanide_65
+    21300132: modern_cyberpunk_cyanide_66
+    21300134: modern_cyberpunk_cyanide_67
+    21300136: modern_cyberpunk_cyanide_68
+    21300138: modern_cyberpunk_cyanide_69
+    21300140: modern_cyberpunk_cyanide_70
+    21300142: modern_cyberpunk_cyanide_71
+    21300144: modern_cyberpunk_cyanide_72
+    21300146: modern_cyberpunk_cyanide_73
+    21300148: modern_cyberpunk_cyanide_74
+    21300150: modern_cyberpunk_cyanide_75
+    21300152: modern_cyberpunk_cyanide_76
+    21300154: modern_cyberpunk_cyanide_77
+    21300156: modern_cyberpunk_cyanide_78
+    21300158: modern_cyberpunk_cyanide_79
+    21300160: modern_cyberpunk_cyanide_80
+    21300162: modern_cyberpunk_cyanide_81
+    21300164: modern_cyberpunk_cyanide_82
+    21300166: modern_cyberpunk_cyanide_83
+    21300168: modern_cyberpunk_cyanide_84
+    21300170: modern_cyberpunk_cyanide_85
+    21300172: modern_cyberpunk_cyanide_86
+    21300174: modern_cyberpunk_cyanide_87
+    21300176: modern_cyberpunk_cyanide_88
+    21300178: modern_cyberpunk_cyanide_89
+    21300180: modern_cyberpunk_cyanide_90
+    21300182: modern_cyberpunk_cyanide_91
+    21300184: modern_cyberpunk_cyanide_92
+    21300186: modern_cyberpunk_cyanide_93
+    21300188: modern_cyberpunk_cyanide_94
+    21300190: modern_cyberpunk_cyanide_95
+    21300192: modern_cyberpunk_cyanide_96
+    21300194: modern_cyberpunk_cyanide_97
+    21300196: modern_cyberpunk_cyanide_98
+    21300198: modern_cyberpunk_cyanide_99
+    21300200: modern_cyberpunk_cyanide_100
+    21300202: modern_cyberpunk_cyanide_101
+    21300204: modern_cyberpunk_cyanide_102
+    21300206: modern_cyberpunk_cyanide_103
+    21300208: modern_cyberpunk_cyanide_104
+    21300210: modern_cyberpunk_cyanide_105
+    21300212: modern_cyberpunk_cyanide_106
+    21300214: modern_cyberpunk_cyanide_107
+    21300216: modern_cyberpunk_cyanide_108
+    21300218: modern_cyberpunk_cyanide_109
+    21300220: modern_cyberpunk_cyanide_110
+    21300222: modern_cyberpunk_cyanide_111
+    21300224: modern_cyberpunk_cyanide_112
+    21300226: modern_cyberpunk_cyanide_113
+    21300228: modern_cyberpunk_cyanide_114
+    21300230: modern_cyberpunk_cyanide_115
+    21300232: modern_cyberpunk_cyanide_116
+    21300234: modern_cyberpunk_cyanide_117
+    21300236: modern_cyberpunk_cyanide_118
+    21300238: modern_cyberpunk_cyanide_119
+    21300240: modern_cyberpunk_cyanide_120
+    21300242: modern_cyberpunk_cyanide_121
+    21300244: modern_cyberpunk_cyanide_122
+    21300246: modern_cyberpunk_cyanide_123
+    21300248: modern_cyberpunk_cyanide_124
+    21300250: modern_cyberpunk_cyanide_125
+    21300252: modern_cyberpunk_cyanide_126
+    21300254: modern_cyberpunk_cyanide_127
+    21300256: modern_cyberpunk_cyanide_128
+    21300258: modern_cyberpunk_cyanide_129
+    21300260: modern_cyberpunk_cyanide_130
+    21300262: modern_cyberpunk_cyanide_131
+    21300264: modern_cyberpunk_cyanide_132
+    21300266: modern_cyberpunk_cyanide_133
+    21300268: modern_cyberpunk_cyanide_134
+    21300270: modern_cyberpunk_cyanide_135
+    21300272: modern_cyberpunk_cyanide_136
+    21300274: modern_cyberpunk_cyanide_137
+    21300276: modern_cyberpunk_cyanide_138
+    21300278: modern_cyberpunk_cyanide_139
+    21300280: modern_cyberpunk_cyanide_140
+    21300282: modern_cyberpunk_cyanide_141
+    21300284: modern_cyberpunk_cyanide_142
+    21300286: modern_cyberpunk_cyanide_200
+    21300288: modern_cyberpunk_cyanide_201
+    21300290: modern_cyberpunk_cyanide_215
+    21300292: modern_cyberpunk_cyanide_216
+    21300294: modern_cyberpunk_cyanide_217
+    21300296: modern_cyberpunk_cyanide_218
+    21300298: modern_cyberpunk_cyanide_229
+    21300300: modern_cyberpunk_cyanide_230
+    21300302: modern_cyberpunk_cyanide_231
+    21300304: modern_cyberpunk_cyanide_232
+    21300306: modern_cyberpunk_cyanide_233
+    21300308: modern_cyberpunk_cyanide_234
+    21300310: modern_cyberpunk_cyanide_235
+    21300312: modern_cyberpunk_cyanide_236
+    21300314: modern_cyberpunk_cyanide_237
+    21300316: modern_cyberpunk_cyanide_238
+    21300318: modern_cyberpunk_cyanide_239
+    21300320: modern_cyberpunk_cyanide_240
+    21300322: modern_cyberpunk_cyanide_241
+    21300324: modern_cyberpunk_cyanide_247
+    21300326: modern_cyberpunk_cyanide_248
+    21300328: modern_cyberpunk_cyanide_249
+    21300330: modern_cyberpunk_cyanide_250
+    21300332: modern_cyberpunk_cyanide_251
+    21300334: modern_cyberpunk_cyanide_252
+    21300336: modern_cyberpunk_cyanide_253
+    21300338: modern_cyberpunk_cyanide_254
+    21300340: modern_cyberpunk_cyanide_255
+    21300342: modern_cyberpunk_cyanide_256
+    21300344: modern_cyberpunk_cyanide_257
+    21300346: modern_cyberpunk_cyanide_258
+    21300348: modern_cyberpunk_cyanide_259
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_200
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b23984e0e9092049b27a46458630fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4685a0f34e9fc5040a77b41a2268e04d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_215
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbb7150a09a26f488f9fbbfcdeac33e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_216
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1bc895f1e93f943b352ef4eed14ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_217
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0975057a5608b43b9f96825b7584f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_218
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed74cf8f0ccecf846ada75a9899db293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_229
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056e77ce499940340a833e9163cdcfbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_230
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c9fec74b0eff4aae136222274ab6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_231
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d1d1b0235d4ae4d8cf8e106eb937d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_232
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdacc357a4127034e812aeaf017d1914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_233
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f2221d1b7e48444b1d236242d6460f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_234
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e3017c28cd2f244885e986eee54a50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_235
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69eaca87d204b646b339119e856c73f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_236
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3758774a76d384ca1b0db46a798a0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_237
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b034626972c6044495395756091d815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_238
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54ee9fd4765ea419b33930e37db4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_239
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba21bb59ae003c47a45dc1fe1814634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_240
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ef412182a0b054281b845e10f964e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_241
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff150f1d354a4c4598adb96b63dc02a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_247
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3702159f59588af42b4640ef9a90c450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_248
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6ee1d8558ccba4b92c21f94b504401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_249
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652f0d3353ea8934eae7525fd3aebc3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_250
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db859408e8739439fc4ebd7bcc3678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_251
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19759a9543043204abffbd560ef86d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_252
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96239304903f69c40a980f18897889ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_253
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ffec2702493ce4b92d062cc38050d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_254
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a2cc9367294a04f8443b127a1ff2c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_255
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c68b447ea227c542b948213a69df34c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_256
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7cf18009ce174187afbba7cfe9253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_257
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cdb69b9fbee744cb70faa1c1a734cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_258
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fc977bd241b5042bbcd4d04b23b936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_259
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799e5edb26781cb45a1d70e17544d437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern_cyberpunk_cyanide_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3fb6f12da76eb469896f4e5a9e75fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a068d0ede5eb44541b26b34ff144bfd8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
