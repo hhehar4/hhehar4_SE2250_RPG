@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
     private float nextDashTime = 0;
     private float dashEndTime = -1;
     private int speed = 4;
+    private Color activeSlot = new Color(0.4353f, 0.4353f, 0.4353f, 1f);
+    private Color inactiveSlot = new Color(0.2157f, 0.2157f, 0.2157f, 1f);
 
     void Update()
     {
@@ -42,6 +44,10 @@ public class Movement : MonoBehaviour
             if (Player.instance.currentWeapons[0] == true)
             {
                 Player.instance.activeWeapon = 0;
+                Player.instance.slots[0].GetComponent<SpriteRenderer>().color = activeSlot;
+                Player.instance.slots[1].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[2].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[3].GetComponent<SpriteRenderer>().color = inactiveSlot;
             }
         }
         //Switches weapon to slot 2 if the player has that weapon
@@ -50,6 +56,10 @@ public class Movement : MonoBehaviour
             if (Player.instance.currentWeapons[1] == true)
             {
                 Player.instance.activeWeapon = 1;
+                Player.instance.slots[0].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[1].GetComponent<SpriteRenderer>().color = activeSlot;
+                Player.instance.slots[2].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[3].GetComponent<SpriteRenderer>().color = inactiveSlot;
             }
         }
         //Switches weapon to slot 3 if the player has that weapon
@@ -58,6 +68,10 @@ public class Movement : MonoBehaviour
             if (Player.instance.currentWeapons[2] == true)
             {
                 Player.instance.activeWeapon = 2;
+                Player.instance.slots[0].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[1].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[2].GetComponent<SpriteRenderer>().color = activeSlot;
+                Player.instance.slots[3].GetComponent<SpriteRenderer>().color = inactiveSlot;
             }
         }
         //Switches weapon to slot 4 if the player has that weapon
@@ -66,6 +80,10 @@ public class Movement : MonoBehaviour
             if (Player.instance.currentWeapons[3] == true)
             {
                 Player.instance.activeWeapon = 3;
+                Player.instance.slots[0].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[1].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[2].GetComponent<SpriteRenderer>().color = inactiveSlot;
+                Player.instance.slots[3].GetComponent<SpriteRenderer>().color = activeSlot;
             }
         }
     }

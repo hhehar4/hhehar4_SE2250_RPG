@@ -14,6 +14,7 @@ public class Boss : MonoBehaviour
     private float nextShotTime = 2;
     private int chargeCounter = 0;
     private Vector3 dashLocation;
+    public GameObject drop;
 
 
     void Start()

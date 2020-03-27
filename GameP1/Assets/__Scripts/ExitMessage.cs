@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class ExitMessage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.tag == "Player")
+        {
+            Player.instance.textField.text = "The door is frozen, you cannot leave the building.";
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Invoke("RemoveText", 3);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void RemoveText()
     {
-        
+        Player.instance.textField.text = "";
     }
 }

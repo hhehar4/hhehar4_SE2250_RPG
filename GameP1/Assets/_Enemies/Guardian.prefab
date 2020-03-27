@@ -136,5 +136,6 @@ MonoBehaviour:
   maxRange: 7
   minRange: 0.5
   health: 50
+  drop: {fileID: 1294485226321825053, guid: 68255a43cafdec646adf17bd27fb68be, type: 3}
   projSprite: {fileID: 3928605868246417316, guid: 33aa2739a5014a24db25287ad262eb6b,
     type: 3}

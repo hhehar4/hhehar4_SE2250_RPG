@@ -7,7 +7,7 @@ public class Attacking : MonoBehaviour
     public GameObject spawnPoint;
     public GameObject[] weapons;
     GameObject attack = null;
-    private float[] coolDownTimes = { 0.4f, 1.25f, 0.75f, 1f };
+    private float[] coolDownTimes = { 0.4f, 0.75f, 1.50f, 1f };
     private float nextFireTime = 0;
 
     void Update()

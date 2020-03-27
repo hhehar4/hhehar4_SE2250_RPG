@@ -132,7 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 3
-  maxRange: 7
+  speed: 5
+  maxRange: 8
   minRange: 1.2
   health: 75
+  drop: {fileID: 4227357114170315686, guid: e4943eaec5c607842ba263e4dc7b5df8, type: 3}

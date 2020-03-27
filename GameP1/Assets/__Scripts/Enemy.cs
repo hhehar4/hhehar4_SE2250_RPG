@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public float maxRange = 8f;
     public float minRange = 0.5f;
     public int health = 20;
+    public GameObject drop;
 
     void Start()
     {
