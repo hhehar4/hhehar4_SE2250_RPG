@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HealthBar : MonoBehaviour
 {
+    //Controls health bar
+
     Transform bar;
 
     void Start()

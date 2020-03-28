@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
+    //Controls enemy projectiles damaging the player and being destroyed
     private void OnTriggerEnter2D(Collider2D other)
     {
         //If the projectile collides with the wall, it gets destroyed
@@ -11,7 +12,7 @@ public class EnemyProjectile : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        //If the projectile collides with an enemy, the enemy takes damage or dies and the projectile gets destroyed
+        //If the projectile collides with the player, the player takes damage or dies and the projectile gets destroyed
         if (other.tag == "Player")
         {
             Player.instance.health = Player.instance.health - 10;

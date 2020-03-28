@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LabText : MonoBehaviour
 {
+    //Controls the text the player sees when they are in the generator room
+
     public GameObject powerCrystal;
     private bool read = false;
     private bool read2 = false;

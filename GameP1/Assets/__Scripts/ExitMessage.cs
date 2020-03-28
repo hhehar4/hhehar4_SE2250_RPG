@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExitMessage : MonoBehaviour
 {
+    //Controls the message the player gets when he tries to leave the lab
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")

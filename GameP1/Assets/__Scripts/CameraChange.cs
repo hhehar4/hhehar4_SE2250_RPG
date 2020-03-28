@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class CameraChange : MonoBehaviour
 {
+    //Controls the camera change when entering/leaving boss room 
+
     public Camera cam;
     public GameObject healthBar;
     public GameObject inventoryBar;
     public GameObject levelIndicator;
     private void OnTriggerStay2D(Collider2D collision)
     {
+        //Changes the camera view and the positions of the HUD items once the player is in the boss's room
         if (collision.gameObject.tag == "Player")
         {
             cam.orthographicSize = 10;
@@ -20,6 +23,7 @@ public class CameraChange : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        //Changes the camera view and the positions of the HUD items once the player leaves the boss's room
         if (collision.gameObject.tag == "Player")
         {
             cam.orthographicSize = 6;

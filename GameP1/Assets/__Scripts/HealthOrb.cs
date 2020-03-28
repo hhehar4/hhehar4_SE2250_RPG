@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthOrb : MonoBehaviour
 {
+    //Controls health orbs
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //On collision with the player, heals the player for 20 health

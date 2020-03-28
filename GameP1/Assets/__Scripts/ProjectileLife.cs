@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ProjectileLife : MonoBehaviour
 {
+    //Controls how long a projectile lasts
+
     public float timeToLive = 5f;
     private void Start()
     {

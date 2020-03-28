@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GuardianTip : MonoBehaviour
 {
+    //Controls the message the player gets when they first see the guardian (shooting enemy)
     private bool read = false;
     void OnTriggerEnter2D(Collider2D collision)
     {

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    //Base enemy script (Minion)
+
     public Transform target;
     public float speed = 3;
     public float maxRange = 8f;

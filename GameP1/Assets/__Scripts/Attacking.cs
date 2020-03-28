@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Attacking : MonoBehaviour
 {
+    //Controls the melee attacks, specifically: weapon spawn/destruction, direction of spawn
+
     public GameObject spawnPoint;
     public GameObject[] weapons;
     GameObject attack = null;

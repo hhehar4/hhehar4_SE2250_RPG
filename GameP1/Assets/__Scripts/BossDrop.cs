@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BossDrop : MonoBehaviour
-{    private void OnTriggerEnter2D(Collider2D collision)
+{    
+    //Controls the boss drop scene cut
+    private void OnTriggerEnter2D(Collider2D collision)
     {
+        //If the player walks over the boss's drop, the scene fades out
         if (collision.tag == "Player")
         {
             Player.instance.hasCrystal = true;
@@ -16,12 +19,14 @@ public class BossDrop : MonoBehaviour
     }
     private IEnumerator Fade()
     {
+        //Scene starts as clear
         Player.instance.overlay.gameObject.SetActive(true);
         Player.instance.overlay.color = Color.clear;
 
         float rate = 1.0f / 2.0f;
         float progress = 0.0f;
 
+        //Fades to black
         while (progress < 1.0f)
         {
             Player.instance.overlay.color = Color.Lerp(Color.clear, Color.black, progress);
@@ -36,6 +41,7 @@ public class BossDrop : MonoBehaviour
 
         progress = 0.0f;
 
+        //Fades to clear
         while (progress < 1.0f)
         {
             Player.instance.overlay.color = Color.Lerp(Color.black, Color.clear, progress);

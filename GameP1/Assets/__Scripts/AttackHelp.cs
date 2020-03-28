@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AttackHelp : MonoBehaviour
 {
+    //Incharge of displaying a tutorial message to player
+
     private bool read = false;
     void OnTriggerEnter2D(Collider2D collision)
     {

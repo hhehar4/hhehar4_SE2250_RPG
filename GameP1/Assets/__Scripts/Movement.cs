@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    //Controls the player's base movement, dashing, and inventory
+
     public Animator animator;
     private float dashCoolDown = 0.5f;
     private float nextDashTime = 0;

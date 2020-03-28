@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    //Control's player shot projectiles
+
     private int[] damage = {5, 10, 20};
     private float[] multiplier = { 1, 1.5f};
     private void OnTriggerEnter2D(Collider2D other)
@@ -25,6 +27,7 @@ public class Projectile : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
+        //If the projectile collides with the boss, the boss takes damage or dies and the projectile gets destroyed
         if (other.tag == "Boss")
         {
             Boss boss = other.gameObject.GetComponent<Boss>();

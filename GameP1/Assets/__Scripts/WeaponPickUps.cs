@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WeaponPickUps : MonoBehaviour
 {
+    //Controls the weapon pickups and adding to inventory
+
     public int id;
 
     private void OnTriggerEnter2D(Collider2D collision)

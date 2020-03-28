@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    //Controls the player's weapon damaging enemies
+
     private int[] damage = { 5, 15, 25, 10 };
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,6 +22,7 @@ public class Weapon : MonoBehaviour
             }
         }
 
+        //If the weapon collides with the boss, the boss takes damage or dies
         if (other.tag == "Boss")
         {
             Boss boss = other.gameObject.GetComponent<Boss>();

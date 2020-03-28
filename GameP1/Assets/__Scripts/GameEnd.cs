@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameEnd : MonoBehaviour
 {
+    //Controls the scene fade when the player returns to the pod and displays end message and time taken
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player" && Player.instance.gameEnd)

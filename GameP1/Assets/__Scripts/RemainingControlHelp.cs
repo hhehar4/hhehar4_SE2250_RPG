@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RemainingControlHelp : MonoBehaviour
 {
+    //Controls the health/shooting tutorial message
     private bool read = false;
     void OnTriggerEnter2D(Collider2D collision)
     {

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
+    //Controls the player's shooting technique
+
     public GameObject[] projectilePrefabs;
     public GameObject spawnPoint;
     public float projectileForce = 20f;
@@ -12,7 +14,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Checks if the right mouse button is pressed to shoot the projectiles
+        //Checks if the right mouse button is pressed to shoot the level specified projectiles
         if (Input.GetButtonDown("Fire2"))
         {
             Shoot(Player.instance.level);
@@ -29,10 +31,11 @@ public class Shooting : MonoBehaviour
         GameObject projectile = Instantiate(projectilePrefabs[tracker], spawnPoint.transform.position, spawnPoint.transform.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
 
+        //Gets the vector to the target location with respect to the player's position
         clickPosition.x = clickPosition.x - spawnPoint.transform.position.x;
         clickPosition.y = clickPosition.y - spawnPoint.transform.position.y;
 
-        //Makes the projectile move in the direction of the mouse click
+        //Makes the projectile move in the direction of the vector
         rb.AddForce(clickPosition.normalized * projectileSpeeds[tracker]);
     }
 }

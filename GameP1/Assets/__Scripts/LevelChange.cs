@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour
 {
+    //Controls the text the player sees when trying to move between levels when they can't, also moves the player between levels once they are the right level
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player") {

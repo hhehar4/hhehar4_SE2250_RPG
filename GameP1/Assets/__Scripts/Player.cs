@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     //Singleton class to keep track of player stats
+
     public static Player instance = null;
     public GameObject player = null;
     public int health = 100;
@@ -27,6 +28,8 @@ public class Player : MonoBehaviour
     public GameObject levelTemp;
     public GameObject[] inv;
     public GameObject[] slots;
+
+    //Initiates beginning scenes, initializes the singleton, and displays the movement tutorial message
     void Awake()
     {
         overlay.pixelInset = new Rect(0, 0, Screen.width, Screen.height);
@@ -45,6 +48,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //Reloads the entire game when the player dies
     public void Respawn()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -55,6 +59,7 @@ public class Player : MonoBehaviour
         textField.text = "";
     }
 
+    //Manages how long the initial message is displayed
     private IEnumerator StartMess()
     {
         float rate = 1.0f / 9.0f;
@@ -67,6 +72,8 @@ public class Player : MonoBehaviour
         startText.text = "";
         temp.SetActive(false);
     }
+
+    //Manages the fade into the game
     private IEnumerator FadeToClear()
     {
         overlay.gameObject.SetActive(true);
